@@ -1,0 +1,12 @@
+body {
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+}
