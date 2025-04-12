@@ -2,11 +2,72 @@ body {
     font-family: "Outfit", Arial, Helvetica, sans-serif;
     background-color: #FF0000;
     color: #FFFFFF;
+    
+    
 }
 
-nav ul{
+.container {
+    margin: 0 auto;
+    width: 1360px;
+    border: solid #000000;
+}
+
+#logo-nav {
+    width: 100px;
+    height: 60px;
+}
+
+nav {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 100px;
+    margin-left: 100px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
     list-style: none;
+    font-size: 20px;
+    align-items: center;
+}
+
+#hero-img {
+    width: 674px;
+    height: 314px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    width: 800px;
+}
+
+#hero-btn {
+    width: 315px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-text {
+    font-size: 22px;
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
