@@ -2,8 +2,6 @@ body {
     font-family: "Outfit", Arial, Helvetica, sans-serif;
     background-color: #FF0000;
     color: #FFFFFF;
-    
-    
 }
 
 .container {
@@ -20,8 +18,7 @@ body {
 nav {
     display: flex;
     flex-direction: row;
-    gap: 100px;
-    margin-left: 100px;
+    gap: 150px;
     align-items: center;
 }
 
@@ -70,4 +67,48 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: 0;
+}
+
+.about-p {
+    font-size: 18px;
+    font-weight: 200;
+    margin: 0;
+}
+
+.about-h2 {
+    font-size: 40px;
+    max-width: 550px;
+    margin: 0;
+}
+
+.about-sub-p {
+    font-size: 20px;
+    max-width: 450px;
+    margin-top: 20px;
+}
+
+#about-game {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    gap: 100px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.card {
+    margin-left: 200px;
+}
+
+#card-left {
+    margin-right: 200px;
 }
