@@ -1,18 +1,23 @@
 body {
     font-family: "Outfit", Arial, Helvetica, sans-serif;
-    background-color: #FF0000;
+    background-color: #ff2c2c;
     color: #FFFFFF;
 }
 
 .container {
     margin: 0 auto;
-    width: 2000px;
+    width: 1800px;
     border: solid #000000;
 }
 
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 #logo-nav {
-    width: 130px;
-    height: 80px;
+    width: 100px;
+    height: 60px;
     
 }
 
@@ -24,18 +29,18 @@ nav {
     align-items: center;
 }
 
-ul {
+nav ul {
     display: flex;
     flex-direction: row;
     gap: 300px;
     list-style: none;
-    font-size: 32px;
+    font-size: 24px;
     align-items: center;
 }
 
 #hero-img {
-    width:1074px;
-    height: 514px;
+    width: 774px;
+    height: 314px;
 }
 
 h1 {
@@ -45,8 +50,8 @@ h1 {
 }
 
 #hero-btn {
-    width: 465px;
-    height: 100px;
+    width: 300px;
+    height: 80px;
     background: #FFFFFF;
     border-radius: 100px;
     display: flex;
@@ -56,7 +61,7 @@ h1 {
 }
 
 #btn-text {
-    font-size: 40px;
+    font-size: 24px;
     color: #000000;
     font-weight: 600;
     letter-spacing: 2px;
@@ -78,8 +83,8 @@ h1 {
 }
 
 .about-h2 {
-    font-size: 57px;
-    max-width: 750px;
+    font-size: 40px;
+    max-width: 500px;
     margin: 0;
 }
 
@@ -108,6 +113,10 @@ section {
     margin-left: 20px;
 }
 
+.text {
+    gap: 200px;
+}
+
 .card {
     margin-left: 200px;
 }
@@ -119,3 +128,191 @@ section {
 #left-p {
     width: 500px;
 }
+
+#download {
+    background-color: #FFFFFF;
+    color: #000;
+    width: 1000px;
+    height: 500px;
+    margin-left: 400px;
+    border-radius: 20px;
+}
+
+#download-btn {
+    background-color: #000000;
+    width: 300px;
+    border-radius: 100px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+}
+
+#download-btn p {
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+#download-wrapper h1 {
+    font-size: 70px;
+    margin-top: 0;
+}
+
+#download-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#github-logo {
+    width: 50px;
+    height: 50px;
+}
+
+#instruction-manual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+#instruction-manual h1 {
+    margin-bottom: 0;
+    margin-top: 100px;
+    font-size: 57px;
+}
+
+.section-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-second {
+    width: 500px;
+    margin-right: 40px;
+}
+
+
+.about-p-second {
+    font-size: 24px;
+    font-weight: 200;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.about-h2-second {
+    font-size: 40px;
+    max-width: 500px;
+    margin: 0;
+}
+
+.about-sub-p-second {
+    font-size: 24px;
+    max-width: 550px;
+    margin-top: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#question-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+
+#question-sec h1 {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 100px;
+    font-size: 57px;
+    width: max-content;
+}
+
+#question-sec-wrapper {
+    align-self: start;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+#email-input {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    width: 540px;
+    height: 32px;
+}
+
+#text-input {
+    width: 1000px;
+    height: 200px;
+    border: none;
+    border-radius: 20px;
+}
+
+#submit-btn {
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    width: 300px;
+    height: 60px;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+#logo-footer {
+    width: 100px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    font-size: 24px;
+}
+
+#arrow-up {
+    width: 80px;
+    height: 80px;
+    align-self: center;
+    margin-top: 10px;
+}
+
+#back-to-top {
+    margin-left: 800px;
+    margin-top: 170px;
+    background-color: #FFFFFF;
+    height: min-content;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
