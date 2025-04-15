@@ -6,18 +6,20 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 1360px;
+    width: 2000px;
     border: solid #000000;
 }
 
 #logo-nav {
-    width: 100px;
-    height: 60px;
+    width: 130px;
+    height: 80px;
+    
 }
 
 nav {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 150px;
     align-items: center;
 }
@@ -25,26 +27,26 @@ nav {
 ul {
     display: flex;
     flex-direction: row;
-    gap: 180px;
+    gap: 300px;
     list-style: none;
-    font-size: 20px;
+    font-size: 32px;
     align-items: center;
 }
 
 #hero-img {
-    width: 674px;
-    height: 314px;
+    width:1074px;
+    height: 514px;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 70px;
     text-align: center;
-    width: 800px;
+    width: 1000px;
 }
 
 #hero-btn {
-    width: 315px;
-    height: 60px;
+    width: 465px;
+    height: 100px;
     background: #FFFFFF;
     border-radius: 100px;
     display: flex;
@@ -54,7 +56,7 @@ h1 {
 }
 
 #btn-text {
-    font-size: 22px;
+    font-size: 40px;
     color: #000000;
     font-weight: 600;
     letter-spacing: 2px;
@@ -70,26 +72,27 @@ h1 {
 }
 
 .about-p {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 200;
     margin: 0;
 }
 
 .about-h2 {
-    font-size: 40px;
-    max-width: 550px;
+    font-size: 57px;
+    max-width: 750px;
     margin: 0;
 }
 
 .about-sub-p {
-    font-size: 20px;
-    max-width: 450px;
+    font-size: 24px;
+    max-width: 550px;
     margin-top: 20px;
 }
 
 #about-game {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-top: 200px;
     gap: 100px;
 }
@@ -111,4 +114,8 @@ section {
 
 #card-left {
     margin-right: 200px;
+}
+
+#left-p {
+    width: 500px;
 }
