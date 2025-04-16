@@ -7,6 +7,9 @@ body {
 .container {
     margin: 0 auto;
     width: 1800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 a {
@@ -315,3 +318,145 @@ footer ul {
     
 }
 
+#hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.bar {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+
+@media (max-width: 375px ) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        margin-left: -20px;
+    }
+
+    nav {
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    
+
+    nav li {
+        display: none;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        background-color: #ff2c2c;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+        border-radius: 10px;
+        width: 200px;
+    }
+
+
+
+    #nav-links.active {
+        display: flex;
+    }
+
+    #hamburger-menu {
+        display: flex;
+    }
+
+    nav ul {
+        gap: 0;
+        font-size: 20px;
+    }
+
+    #hero-img {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    section {
+        flex-direction: column !important;
+        align-items: center;
+        text-align: center;
+    }
+
+    #about-sec-right {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .text,
+    .wrapper,
+    .card,
+    #card-left {
+        margin: 0;
+    }
+
+    .about-h2 {
+        font-size: 30px;
+        width: 400px;
+    }
+
+    .about-sub-p {
+        font-size: 20px;
+        width: 300px;
+    }
+
+    #left-p {
+        width: 300px;
+    }
+
+    
+
+    #download {
+        width: 100%;
+        height: 60%;
+        margin: 40px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    #download-btn {
+        margin-bottom: 10px;
+    }
+
+    #question-sec-wrapper {
+        width: 100%;
+    }
+
+    #email-input,
+    #text-input {
+        width: 100%;
+    }
+
+    #back-to-top {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        gap: 40px;
+    }
+
+    #footer-wrapper {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+}
