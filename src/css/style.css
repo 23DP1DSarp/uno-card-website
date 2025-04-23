@@ -36,7 +36,7 @@ nav ul {
     flex-direction: row;
     gap: 300px;
     list-style: none;
-    font-size: 30px;
+    font-size: 24px;
     align-items: center;
 }
 
@@ -79,19 +79,19 @@ h1 {
 }
 
 .about-p {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 200;
     margin: 0;
 }
 
 .about-h2 {
-    font-size: 56px;
-    max-width: 700px;
+    font-size: 48px;
+    max-width: 600px;
     margin: 0;
 }
 
 .about-sub-p {
-    font-size: 30px;
+    font-size: 24px;
     max-width: 550px;
     margin-top: 20px;
 }
@@ -333,7 +333,9 @@ footer ul {
 }
 
 
-@media (max-width: 375px ) {
+@media (max-width: 645px ) {
+
+   
 
     .container {
         width: auto;
@@ -380,24 +382,24 @@ footer ul {
     }
 
     #hero-section {
-        margin-left: 150px;
+        margin-left: 0px;
     }
 
     #hero-img {
-        width: 240%;
+        width: 100%;
         height: auto;
     }
 
     h1 {
-        font-size: 50px;
-        width: 240%;
+        font-size: 48px;
+        width: 100%;
     }
 
     section {
         flex-direction: column !important;
         align-items: center;
         text-align: center;
-        margin-left: 140px;
+        margin-left: 0px;
     }
 
     #about-sec-right {
