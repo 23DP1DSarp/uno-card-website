@@ -383,7 +383,7 @@ footer ul {
     }
 
     #hero-section {
-        margin-left: 0px;
+        margin-left: 20px;
     }
 
     #hero-img {
@@ -400,7 +400,7 @@ footer ul {
         flex-direction: column !important;
         align-items: center;
         text-align: center;
-        margin-left: 0px;
+        margin-left: 20px;
     }
 
     #about-sec-right {
@@ -439,7 +439,7 @@ footer ul {
         width: 100%;
         height: 10%;
         margin: 40px 0;
-        margin-left: -5px;
+        margin-left: 15px;
         display: flex;
         align-items: center;
     }
@@ -454,6 +454,10 @@ footer ul {
 
     #download-btn {
         margin-bottom: 10px;
+    }
+
+    #question-sec {
+        margin-left: 20px;
     }
 
     #question-sec h1 {
