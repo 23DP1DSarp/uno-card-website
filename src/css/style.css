@@ -383,7 +383,7 @@ footer ul {
     }
 
     #hero-section {
-        margin-left: 50px;
+        margin-left: 100px;
     }
 
     #hero-img {
@@ -400,7 +400,7 @@ footer ul {
         flex-direction: column !important;
         align-items: center;
         text-align: center;
-        margin-left: 50px;
+        margin-left: 100px;
     }
 
     #about-sec-right {
