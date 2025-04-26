@@ -338,7 +338,7 @@ footer ul {
   
 
     .container {
-        width: auto;
+        width: fit-content;
         padding: 0 20px;
         display: flex;
         flex-direction: column;

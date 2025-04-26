@@ -1,0 +1,26 @@
+{
+  "name": "uno-card-website",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/23DP1DSarp/uno-card-website.git"
+  },
+  "keywords": [],
+  "author": "Daniils Sarpans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/23DP1DSarp/uno-card-website/issues"
+  },
+  "homepage": "https://github.com/23DP1DSarp/uno-card-website#readme",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "nodemailer": "^6.10.1",
+    "cors": "^2.8.5"
+  }
+}
