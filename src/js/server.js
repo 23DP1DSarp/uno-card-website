@@ -9,7 +9,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'https://23dp1dsarp.github.io/uno-card-website/'
+  origin: 'https://23dp1dsarp.github.io'
 }));
 app.use(bodyParser.json());
 
