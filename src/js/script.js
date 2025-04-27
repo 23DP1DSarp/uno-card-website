@@ -16,7 +16,7 @@ document.getElementById('submit-btn').addEventListener('click', async () => {
     }
   
     try {
-      const response = await fetch('https://uno-card-website.onrender.com', {
+      const response = await fetch('https://uno-card-website.onrender.com/submit-feedback', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
