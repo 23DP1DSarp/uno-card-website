@@ -24,9 +24,6 @@ app.get('/', (req, res) => {
   res.send('Feedback API is running.');
 });
 
-const cors = require('cors');
-  app.use(cors({ origin: 'https://23dp1dsarp.github.io/uno-card-website/' }));
-
 // API route to handle feedback
 app.post('/submit-feedback', async (req, res) => {
   const { email, message } = req.body;
