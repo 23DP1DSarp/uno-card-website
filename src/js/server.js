@@ -8,7 +8,9 @@ const cors = require('cors');
 const app = express();
 
 // Middleware
-app.use(cors()); // allow frontend from GitHub Pages
+app.use(cors({
+  origin: 'https://23dp1dsarp.github.io/uno-card-website/'
+}));
 app.use(bodyParser.json());
 
 // Create transporter for sending email
