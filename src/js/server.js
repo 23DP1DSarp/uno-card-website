@@ -20,6 +20,10 @@ const transporter = nodemailer.createTransport({
   }
 });
 
+app.get('/', (req, res) => {
+  res.send('Feedback API is running.');
+});
+
 // API route to handle feedback
 app.post('/submit-feedback', async (req, res) => {
   const { email, message } = req.body;
