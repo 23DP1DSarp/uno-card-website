@@ -335,36 +335,34 @@ footer ul {
 
 @media (max-width: 645px ) {
 
-  
+    body {
+        margin-right: 0;
+        margin-left: 0;
+        width: 375px;
+    }
 
     .container {
-        width: fit-content;
-        padding: 0 20px;
+        width: 300px;
+        padding: 0 0px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         margin-left: 0px;
-        
+        margin: 0;
     }
 
     nav {
         justify-content: space-between;
         padding: 20px;
-        gap: 250px;
+        padding-right: 0;
+        gap: 10px;
+        width: 100%;
     }
 
     
 
     nav li {
         display: none;
-        position: absolute;
-        top: 80px;
-        right: 20px;
-        background-color: #ff2c2c;
-        flex-direction: column;
-        gap: 30px;
-        padding: 20px;
-        border-radius: 10px;
-        width: 20px;
     }
 
 
@@ -383,7 +381,8 @@ footer ul {
     }
 
     #hero-section {
-        margin-left: 70px;
+        margin-left: 0px;
+        width: 120%;
     }
 
     #hero-img {
@@ -392,7 +391,7 @@ footer ul {
     }
 
     h1 {
-        font-size: 48px;
+        font-size: 40px;
         width: 100%;
     }
 
@@ -400,7 +399,7 @@ footer ul {
         flex-direction: column !important;
         align-items: center;
         text-align: center;
-        margin-left: 70px;
+        margin-left: 50px;
     }
 
     #about-sec-right {
@@ -436,33 +435,61 @@ footer ul {
     
 
     #download {
-        width: 100%;
+        width: 110%;
         height: 10%;
         margin: 40px 0;
-        margin-left: 15px;
+        margin-left: 10px;
         display: flex;
         align-items: center;
     }
 
     #download-wrapper h1 {
-        font-size: 60px;
+        font-size: 40px;
+        padding: 20px;
         width: 100%;
-        padding: 10px;
     }
 
+
+    #download-text {
+        margin: 0px;
+        padding-left: 0;
+        padding-right: 0px;
+    }
     
 
     #download-btn {
         margin-bottom: 10px;
     }
 
+
+    #instruction-manual{
+        margin-left: 50px;
+    }
+
+    #instruction-manual h1 {
+        font-size: 40px;
+    }
+
+    .section-second {
+        margin-left: 10px;
+    }
+
+    .section-second h2 {
+        font-size: 30px;
+    }
+
+    .about-sub-p-second {
+        width: 60%;
+    }
+
     #question-sec {
-        margin-left: 70px;
+        margin-left: 20px;
+        width: 100%;
     }
 
     #question-sec h1 {
-        font-size: 48px;
-        width: 500px;
+        font-size: 30px;
+        width: 100%;
     }
 
     #question-sec-wrapper {
@@ -489,6 +516,28 @@ footer ul {
     #footer-wrapper {
         flex-direction: column;
         gap: 40px;
+        width: 100%;
+        margin-right: 100px;
         align-items: center;
+        
     }
+
+    #second-footer-ul {
+        margin-right: 10px;
+        padding: 0;
+    }
+
+    footer li {
+        font-size: 24px;
+    }
+
+    #logo-footer {
+        margin-right: 20px;
+    }
+
+    #back-to-top {
+        margin-left: 350px;
+    }
+
+
 }
