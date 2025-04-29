@@ -355,7 +355,7 @@ footer ul {
         justify-content: space-between;
         padding: 20px;
         padding-right: 0;
-        gap: 350px;
+        gap: 260px;
         width: 100%;
     }
 
@@ -381,7 +381,7 @@ footer ul {
     }
 
     #hero-section {
-        margin-left: 80px;
+        margin-left: 50px;
         width: 120%;
     }
 
@@ -399,7 +399,7 @@ footer ul {
         flex-direction: column !important;
         align-items: center;
         text-align: center;
-        margin-left: 210px;
+        margin-left: 150px;
     }
 
     #about-sec-right {
@@ -409,6 +409,7 @@ footer ul {
 
     .text {
         gap: 50px;
+        width: 400px;
     }
 
     .text,
@@ -416,6 +417,15 @@ footer ul {
     .card,
     #card-left {
         margin: 0;
+    }
+
+    .card, #card-left {
+        width: 400px;
+    }
+
+    .card-second {
+        margin-right: 0;
+        width: 400px;
     }
 
     .about-h2 {
@@ -435,10 +445,10 @@ footer ul {
     
 
     #download {
-        width: 150%;
+        width: 140%;
         height: 10%;
         margin: 40px 0;
-        margin-left: 50px;
+        margin-left: 5px;
         display: flex;
         align-items: center;
     }
@@ -446,7 +456,7 @@ footer ul {
     #download-wrapper h1 {
         font-size: 40px;
         padding: 20px;
-        width: 100%;
+        width: 80%;
     }
 
 
@@ -463,7 +473,7 @@ footer ul {
 
 
     #instruction-manual{
-        margin-left: 210px;
+        margin-left: 150px;
     }
 
     #instruction-manual h1 {
@@ -484,8 +494,8 @@ footer ul {
     }
 
     #question-sec {
-        margin-left: 40px;
-        width: 150%;
+        margin-left: 20px;
+        width: 130%;
     }
 
     #question-sec h1 {
@@ -537,7 +547,7 @@ footer ul {
     }
 
     #back-to-top {
-        margin-left: 500px;
+        margin-left: 400px;
     }
 
 
