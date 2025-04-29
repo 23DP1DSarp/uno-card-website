@@ -40,6 +40,7 @@ nav ul {
     align-items: center;
 }
 
+
 #hero-img {
     width: 774px;
     height: 314px;
@@ -182,6 +183,11 @@ section {
     gap: 100px;
 }
 
+#instruction-manual-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
 #instruction-manual h1 {
     margin-bottom: 0;
     margin-top: 100px;
@@ -192,6 +198,11 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.section-second video {
+    padding: 20px;
+    margin-left: 50px;
 }
 
 .card-second {
@@ -245,7 +256,7 @@ section {
 #email-input {
     background-color: #FFFFFF;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 540px;
     height: 32px;
 }
@@ -254,8 +265,14 @@ section {
     width: 1000px;
     height: 200px;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
 }
+
+input, textarea {
+    font-size: 24px;
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+  }
+
 
 #submit-btn {
     background-color: white;
@@ -359,13 +376,6 @@ footer ul {
         width: 100%;
     }
 
-    
-
-    nav li {
-        display: none;
-    }
-
-
 
     #nav-links.active {
         display: flex;
@@ -383,6 +393,9 @@ footer ul {
     #hero-section {
         margin-left: 50px;
         width: 120%;
+        gap: 30px;
+        margin-bottom: 300px;
+        margin-top: 50px;
     }
 
     #hero-img {
@@ -404,7 +417,7 @@ footer ul {
 
     #about-sec-right {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column-reverse !important;
     }
 
     .text {
@@ -448,9 +461,10 @@ footer ul {
         width: 140%;
         height: 10%;
         margin: 40px 0;
-        margin-left: 5px;
+        margin-left: 15px;
         display: flex;
         align-items: center;
+        margin-top: 150px;
     }
 
     #download-wrapper h1 {
@@ -481,6 +495,30 @@ footer ul {
         width: 300px;
     }
 
+    #instruction-manual-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 200px;
+    }
+
+    #instruction-manual-wrapper video {
+        margin: 0;
+    }
+
+    #about-p-second-first {
+        font-size: 22px;
+        width: 400px;
+    }
+
+    .about-p {
+        margin-bottom: 10px;
+    }
+
+    .about-p-second {
+        font-size: 20px;
+        width: 450px;
+    }
+
     .section-second {
         margin-left: 10px;
     }
@@ -494,8 +532,12 @@ footer ul {
     }
 
     #question-sec {
-        margin-left: 20px;
+        margin-left: 30px;
         width: 130%;
+    }
+
+    #email-input {
+        font-size: 4px;
     }
 
     #question-sec h1 {
@@ -507,9 +549,8 @@ footer ul {
         width: 100%;
     }
 
-    #email-input,
-    #text-input {
-        width: 100%;
+    input[type="text"] {
+        font-size:48px;
     }
 
     #back-to-top {
@@ -550,5 +591,39 @@ footer ul {
         margin-left: 400px;
     }
 
+    #nav-links {
+        display: none;
+        flex-direction: column; 
+        background-color: #333;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+      }
+    
+      #nav-links.active {
+        display: flex;
+      }
+    
+      #nav-links li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 0;
+      }
+
+      #nav-links li {
+        margin: 10px 0;
+        width: 500px;
+        height: 50px;
+      }
+
+      #nav-links ul {
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+        gap: 5px;
+      }
 
 }

@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="container">
-    <nav>
+    <nav id="navbar">
         <img id="logo-nav" src="./images/logo.png">
 
 
@@ -21,12 +21,14 @@
             <div class="bar"></div>
         </div>
 
+        <div id="nav-links">
         <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Download</a></li>
-            <li><a href="#">Questions</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li><a href="#about-game">About</a></li>
+            <li><a href="#download">Download</a></li>
+            <li><a href="#instruction-manual">Instructions</a></li>
+            <li><a href="#question-sec">Questions</a></li>
         </ul>
+        </div>
 
     </nav>
 
@@ -35,7 +37,7 @@
         <section id="hero-section">
         <h1>Wild Cards & Wilder Moments – Welcome to UNO!</h1>
         <img id="hero-img" src="./images/hero-sec-pic.png">
-        <a href="#"><div id="hero-btn">
+        <a href="#download"><div id="hero-btn">
             <p id="btn-text">TRY NOW</p>
         </div></a>
         </section>
@@ -49,13 +51,13 @@
                 <p class="about-sub-p">Whether it’s midnight or you just need a quick match, the computer is always ready for a game. No waiting, just playing!</p>
             </section>
 
-            <img class="card" src="./images/singleplayer-recording.mp4">
+            <video class="card" src="./images/singleplayer-recording.mp4" autoplay loop></video>
 
             </section>
             
             <section id="about-sec-right" class="text">
 
-                <img id="card-left" src="./images/multiplayer-recording.mp4">
+                <video id="card-left" src="./images/multiplayer-recording.mp4" autoplay loop></video>
 
                 <section class="wrapper">
                 <p class="about-p">MULTIPLAYER</p>
@@ -74,7 +76,7 @@
                 <p class="about-sub-p">Start at the bottom and work your way up. Play smart, play bold, and make your mark on the leaderboard!</p>
                 </section>
 
-                <img class="card" src="./images/leaderboard-recording.mp4">
+                <video class="card" src="./images/leaderboard-recording.mp4" autoplay loop></video>
             </section>
 
             
@@ -86,10 +88,10 @@
 
             <div id="download-wrapper">
                 <h1 id="download-text">UNO Anytime, Anywhere  Download & Play!</h1>
-                <div id="download-btn">
+                <a href="https://github.com/23DP1DSarp/uno-card-game"><div id="download-btn">
                     <img id="github-logo" src="./images/github-mark-white 1.png">
                     <p>DOWNLOAD</p>
-                </div>
+                </div></a>
             </div>
 
         </section>
@@ -103,12 +105,14 @@
 
             <h1>How to use:</h1>
 
+
+            <div id="instruction-manual-wrapper">
             <section class="section-second">
                 
                 <p class="about-p-second">STEP 1</p>
                 <h2 class="about-h2-second">Choose Game Mode</h2>
-                <img class="card-second" src="./images/singleplayer-recording.mp4">
-                <p class="about-sub-p-second">Just enter one of the commands from the menu (Example: S (for singleplayer))</p>
+                <video height="196px" class="card-second" src="./images/singleplayer-recording.mp4" autoplay loop></video>
+                <p class="about-sub-p-second" id="about-p-second-first">Just enter one of the commands from the menu (Example: S (for singleplayer))</p>
 
 
             </section>
@@ -118,7 +122,7 @@
                 
                     <p class="about-p-second">STEP 2</p>
                     <h2 class="about-h2-second">Choose the card</h2>
-                    <img class="card-second" src="./images/gameplay-recording.mp4">
+                    <video height="196px" class="card-second" src="./images/gameplay-recording.mp4" autoplay loop></video>
                     <p class="about-sub-p-second">Choose the number of the card and enter it (Example: 1)</p>
                 
 
@@ -131,15 +135,15 @@
                 
                 <p class="about-p-second">STEP 3</p>
                 <h2 class="about-h2-second">Win!</h2>
-                <img class="card-second" src="./images/leaderboard-recording.mp4">
-                <p class="about-sub-p-second">After winning, you will be brought back to the menu</p>
+                <video height="196px" class="card-second" src="./images/leaderboard-recording.mp4" autoplay loop></video>
+                <p class="about-sub-p-second">After winning, you will be brought back to menu</p>
                 
 
                 
 
-
+            
         </section>
-
+        </div>
         </section>
 
 
@@ -154,7 +158,7 @@
             <input type="email" id="email-input">
 
             <p>QUESTION</p>
-            <input type="text" id="text-input">
+            <textarea id="text-input"></textarea>
             <br>
             <button id="submit-btn">SUBMIT</button>
         </div>
@@ -172,21 +176,19 @@
 
         <ul>
             <strong><li>UNO</li></strong>
-            <a href="#"><li>Download</li></a>
-            <a href="#"><li>Ask a question</li></a>
+            <a href="#download"><li>Download</li></a>
+            <a href="#question-sec"><li>Ask a question</li></a>
         </ul>
 
         <ul id="second-footer-ul">
            <strong><li>Contacts</li></strong>
-           <a href="#"><li>Email</li></a>
-           <a href="#"><li>Facebook</li></a>
-           <a href="#"><li>Twitter</li></a>
-           <a href="#"><li>GitHub</li></a>
+           <a href="mailto:danila.sharpan77@gmail.com"><li>Email</li></a>
+           <a href="https://github.com/23DP1DSarp/uno-card-game"><li>GitHub</li></a>
         </ul>
     </div>
 
         <br>
-        <a href="#hero-section"><div id="back-to-top">
+        <a href="#navbar"><div id="back-to-top">
             <img id="arrow-up" src="./images/arrow-up.png">
         </div></a>
 
