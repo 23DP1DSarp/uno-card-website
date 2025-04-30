@@ -538,6 +538,7 @@ footer ul {
 
     #email-input {
         font-size: 4px;
+        width: 400px;
     }
 
     #question-sec h1 {
@@ -588,7 +589,7 @@ footer ul {
     }
 
     #back-to-top {
-        margin-left: 400px;
+        margin-left: 450px;
     }
 
     #nav-links {
@@ -624,6 +625,10 @@ footer ul {
         flex-direction: column;
         margin-left: 200px;
         gap: 5px;
+      }
+
+      textarea {
+        max-width: 400px;
       }
 
 }
