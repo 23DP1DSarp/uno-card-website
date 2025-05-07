@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 10px;
 }
 
 a {
@@ -101,7 +102,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 250px;
     gap: 100px;
 }
 
@@ -139,6 +140,7 @@ section {
     height: 500px;
     margin-left: 400px;
     border-radius: 20px;
+    margin-top: 200px;
 }
 
 #download-btn {
@@ -171,16 +173,12 @@ section {
     align-items: center;
 }
 
-#github-logo {
-    width: 50px;
-    height: 50px;
-}
-
 #instruction-manual {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 100px;
+    margin-top: 150px;
 }
 
 #instruction-manual-wrapper {
@@ -237,6 +235,7 @@ section {
     flex-direction: column;
     align-items: center;
     margin-left: 50px;
+    margin-top: 200px;
 }
 
 #question-sec h1 {
@@ -291,7 +290,7 @@ footer {
     display: flex;
     flex-direction: row;
     margin-left: 100px;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 #footer-wrapper {
@@ -464,7 +463,7 @@ footer ul {
         margin-left: 15px;
         display: flex;
         align-items: center;
-        margin-top: 150px;
+        margin-top: 200px;
     }
 
     #download-wrapper h1 {
